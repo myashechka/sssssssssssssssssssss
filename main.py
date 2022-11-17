@@ -49,7 +49,7 @@ class VShell:
                         and path.count('/') == name[:-1].count('/'):
                     print(f"{name:15}\t{file.file_size:5}\t {date.strftime('%H:%M %d.%m.%Y'):15}")
 
-    def cat(self, fileName):
+    def cat(self, fileName):  # Функция
         if not len(fileName):
             text = input()
             print(text)
